@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/mainOrange</color>
+
+    <color name="black">#030104</color>
+    <color name="blackTrans">#80030104</color>
+    <color name="blackCover">#50030104</color>
+
+    <color name="white">#fff</color>
+    <color name="whiteTrans">#80ffffff</color>
+    <color name="whiteTransTab">#60ffffff</color>
+
+    <color name="mainOrange">#ff9f00</color>
+    <color name="mainOrangeTrans">#80ff9f00</color>
+    <color name="yellow">#ffb300</color>
+    <color name="red">#D34747</color>
+    <color name="green">#09AE2D</color>
+    <color name="blue">#1E88E5</color>
+
+
+    <color name="dark">#212121</color>
+    <color name="darkTrans">#80212121</color>
+    <color name="darkLight">#424242</color>
+    <color name="darkSLight">#636363</color>
+
+    <color name="transparent">#00000000</color>
 </resources>
