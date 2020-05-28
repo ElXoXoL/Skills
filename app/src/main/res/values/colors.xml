@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">@color/black</color>
     <color name="colorPrimaryDark">@color/black</color>
-    <color name="colorAccent">@color/mainOrange</color>
+    <color name="colorAccent">@color/main</color>
 
     <color name="black">#030104</color>
     <color name="blackTrans">#80030104</color>
@@ -12,8 +12,8 @@
     <color name="whiteTrans">#80ffffff</color>
     <color name="whiteTransTab">#60ffffff</color>
 
-    <color name="mainOrange">#ff9f00</color>
-    <color name="mainOrangeTrans">#80ff9f00</color>
+    <color name="main">#8E24AA</color>
+    <color name="mainTrans">#808E24AA</color>
     <color name="yellow">#ffb300</color>
     <color name="red">#D34747</color>
     <color name="green">#09AE2D</color>
