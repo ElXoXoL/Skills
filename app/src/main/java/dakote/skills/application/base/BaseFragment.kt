@@ -22,4 +22,20 @@ abstract class BaseFragment(@LayoutRes resource: Int): Fragment(resource){
         }
     }
 
+    protected fun replaceFragment(fragment: Fragment){
+        (activity as? BaseActivity)?.replaceFragment(fragment)
+    }
+
+    protected fun replaceFragmentWithPopAnim(fragment: Fragment){
+        (activity as? BaseActivity)?.replaceFragmentWithPopAnim(fragment)
+    }
+
+    protected fun replaceFragmentNoAnim(fragment: Fragment){
+        (activity as? BaseActivity)?.replaceFragmentNoAnim(fragment)
+    }
+
+    protected fun replaceFragmentNoAnimNoStack(fragment: Fragment){
+        (activity as? BaseActivity)?.replaceFragmentNoAnimNoStack(fragment)
+    }
+
 }
