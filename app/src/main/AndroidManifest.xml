@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dakote.skills">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".application.SkillsApp"
         android:allowBackup="true"
@@ -10,6 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider3084711011641003"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
 
         <activity android:name=".MainActivity">
             <intent-filter>

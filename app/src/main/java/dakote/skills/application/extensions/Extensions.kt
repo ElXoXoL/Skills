@@ -22,6 +22,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.gms.tasks.Task
 import com.google.android.gms.tasks.Tasks
+import com.google.gson.Gson
 import dakote.skills.R
 import dakote.skills.application.SkillsApp
 import dakote.skills.application.glide.GlideApp
@@ -238,3 +239,8 @@ fun BottomSheetDialog.setAlwaysExpanded(){
 fun BottomSheetDialog.setBackgroundBlack(){
     this.window!!.setBackgroundDrawable(ColorDrawable(context.color(R.color.blackTrans)))
 }
+
+val Any?.json: String
+    get() {
+        return Gson().toJson(this)
+    }
